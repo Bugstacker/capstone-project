@@ -1,0 +1,10 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn {
+    @apply bg-yellow-400 font-bold rounded-2xl px-10 py-5 text-black;
+  }
+}

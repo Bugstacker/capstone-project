@@ -1,0 +1,9 @@
+.email + span,
+.name + span {
+  display: none;
+}
+
+.email:invalid + span,
+.name:invalid + span {
+  display: block;
+}

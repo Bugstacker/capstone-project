@@ -1,4 +1,6 @@
 export const INITIAL_STATE = {
+  name: "",
+  email: "",
   date: "",
   time: "",
   guests: 1,

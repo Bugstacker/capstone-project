@@ -44,7 +44,7 @@ export default function BookingForm({times, handleChange, handleSubmit, formData
         <label htmlFor="res-time" className="text-xl font-bold">Choose time *</label>
         <select
           id="res-time"
-          className="py-5 border p-4 rounded invalid:border-red-300"
+          className="py-5 border-4 p-4 rounded invalid:border-red-300"
           name="time"
           value={formData.time}
           onChange={handleChange}
@@ -70,17 +70,17 @@ export default function BookingForm({times, handleChange, handleSubmit, formData
         <label htmlFor="occasion" className="text-xl font-bold">Occasion *</label>
         <select
           id="occasion"
-          className="py-5 border p-4 rounded invalid:border-red-300"
+          className="py-5 border-4 p-4 rounded invalid:border-red-300"
           value={formData.occasion}
           name="occasion"
           onChange={handleChange}
           required
         >
-            <option value="">Select an occasion</option>
-            <option value="Birthday">Birthday</option>
-            <option value="Anniversary">Anniversary</option>
-            <option value="Engagement">Engagement</option>
-            <option value="Other">Other</option>
+          <option value="">Select an occasion</option>
+          <option value="Birthday">Birthday</option>
+          <option value="Anniversary">Anniversary</option>
+          <option value="Engagement">Engagement</option>
+          <option value="Other">Other</option>
         </select>
         <button className="btn rounded mt-6 text-xl">Make a reservation</button>
       </form>

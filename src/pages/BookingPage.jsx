@@ -15,7 +15,6 @@ export default function BookingPage() {
     Fdispatch({ type: "UPDATE_FORM", payload: { name, value } });
 
     if (type === "date") {
-      console.log(value)
       dispatch({ type: "NEW_DATE", payload: value });
     } else {
       return state

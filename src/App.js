@@ -8,6 +8,7 @@ import {
 import Layout from "./components/Layout"
 import BookingPage from "./pages/BookingPage"
 import Homepage from "./pages/Homepage"
+import ConfirmedBooking from "./pages/ConfirmedBooking"
 
 const router = createBrowserRouter(createRoutesFromElements(
   <Route path="/" element={<Layout/>}>
@@ -15,6 +16,10 @@ const router = createBrowserRouter(createRoutesFromElements(
     <Route 
       path="booking" 
       element={<BookingPage/>} 
+    />
+    <Route 
+      path="confirmed"
+      element={<ConfirmedBooking />}
     />
   </Route>
 ))
@@ -26,3 +31,4 @@ function App() {
 }
 
 export default App
+

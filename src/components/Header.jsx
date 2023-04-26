@@ -1,11 +1,10 @@
-import logo from "../assets/logo.svg"
 import {Link} from "react-router-dom"
 
 export default function Header() {
   return (
     <div className="flex flex-wrap max-w-6xl justify-between py-4 mx-auto w-full sm:px-2">
       <header>
-        <img src={logo} alt="little lemon logo" className="-mt-1.5" />
+        <img src="/logo.svg" alt="little lemon logo" className="-mt-1.5" />
       </header>
       <nav className="basis-3/4">
         <ul>

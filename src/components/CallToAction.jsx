@@ -1,5 +1,4 @@
 import {Link} from "react-router-dom"
-import heroImg from "../assets/restaurantfood.jpg"
 
 
 export default function CallToAction() {
@@ -14,7 +13,7 @@ export default function CallToAction() {
         </p>
         <Link to="/booking" className="btn w-fit">Book a Table</Link>
       </article>
-      <img src={heroImg} alt="Chef with a dish of food from little lemon restaurant" className="w-96 -mb-44 rounded-2xl shadow-2xl"/>
+      <img src="/restaurantfood.jpg" alt="Chef with a dish of food from little lemon restaurant" className="w-96 -mb-44 rounded-2xl shadow-2xl"/>
     </section>
     </div>
   )
